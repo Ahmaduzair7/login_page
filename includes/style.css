@@ -62,13 +62,16 @@ font-size: 15px;
 #p-1{
     padding-left: 30px;
 }
+#p-1 a{
+    color: #4461F2;
+}
 #login{
     
-    width: 40%;
+    width: 35%;
     float: right;
     position: relative;
-    bottom:200px;
-    right: 0px;
+    bottom:170px;
+    right: 2%;
     
 }
 form{
@@ -140,7 +143,7 @@ input{
     background-color: white;
 }
 #img-bg{
-    width: 400px;
+    width: 350px;
     position: absolute;
     top: 15%;
     left: 29%;
