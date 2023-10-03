@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+body{
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    margin-left:115px;
+}
+li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+#lang{
+display: inline-block;
+padding: 10px;
+font-size: 15px;
+}
+#sign-in{
+display: inline-block;
+padding: 10px;
+color: blue;
+font-size: 15px;
+}
+#register{
+border: none;
+border-radius: 18px;
+padding: 8px 12px 8px 12px;
+background-color: white;
+color: blue;
+margin-left: 10px;
+font-size: 15px;
+}
+#nav-right{
+    margin-right: 100px;
+
+}
+#main-left{
+    
+    width: 40%;
+    padding: 100px 0px 0px 100px;
+}
+#heading-1{
+    padding: 30px;
+    
+}
+#p-1{
+    padding-left: 30px;
+}
+#login{
+    
+    width: 40%;
+    float: right;
+    position: relative;
+    bottom:200px;
+    right: 0px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+input{
+    display: block;
+    padding: 8px;
+    width: 70%;
+    border: none;
+    background-color:#EAF0F7;
+    margin: 10px;
+    border-radius: 10px;
+}
+#sign-in-2{
+    display: block;
+    width: 70%;
+    padding: 7px;
+    margin-top: 60px;
+    margin-left:10px ;
+    border: none;
+    border-radius: 10px;
+    background-color: #4461F2;
+    color: white;
+    
+}
+#p-2 {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    padding: 30px 0px 30px 10px;
+    margin: auto;
+    font-size: small;
+    color:gray;
+}
+  
+#p-2:before,
+#p-2:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid gray;
+    margin: auto;
+}
+#recover{
+    color: gray;
+    font-size: small;
+    margin-left: 45%;
+}
+.img-1{
+    width: 25px;
+    height: 25px;
+}
+
+.social{
+    padding: 4px 25px 2px 25px;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    background-color: transparent;
+}
+.social-apple{
+    padding: 4px 25px 3px 25px;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    background-color: white;
+}
+#img-bg{
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    left: 29%;
+    
+}
+#div-last{
+    display: flex;
+    justify-content: center;
+}
